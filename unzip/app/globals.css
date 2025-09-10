@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #000;
+  --red: #dc2626;
+}
+
+html, body { background: var(--bg); color: #fff; }
+::selection { background: #ef4444; color: white; }
